@@ -1,0 +1,9 @@
+{
+  "signup-header": "Create account",
+  "signup-name": "Name",
+  "signup-email": "E-mail",
+  "signup-password": "Password",
+  "signup-confirm": "Confirm password",
+  "signup-button": "Create",
+  "signup-terms": "By signing up, you confirm that you've read and accepted our <0>Terms of Service</0> and <1>Privacy Policy.</1>"
+}
