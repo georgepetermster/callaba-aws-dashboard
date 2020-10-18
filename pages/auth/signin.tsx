@@ -17,25 +17,21 @@ function Signup({t}) {
                     <div className={'form'}>
                         <Logotype/>
                         <div className={'form__header'}>
-                            <BlockHeader text={t("signup-header")} size={1}/>
-                        </div>
-                        <div className={"form__formElement"}>
-                            <FormInputText placeholder={t('signup-name')}/>
+                            <BlockHeader text={t("signin-header")} size={1}/>
                         </div>
                         <div className={'form__formElement'}>
-                            <FormInputText placeholder={t('signup-email')}/>
+                            <FormInputText placeholder={t('signin-email')}/>
                         </div>
                         <div className={'form__formElement'}>
-                            <FormInputText placeholder={t('signup-password')} type={'password'}/>
+                            <FormInputText placeholder={t('signin-password')} type={'password'}/>
                         </div>
                         <div className={'form__formElement form__submitButton'}>
-                            <FormButton text={t('signup-submitButton')}></FormButton>
+                            <FormButton text={t('signin-submitButton')}></FormButton>
                         </div>
-                        <div className={'signup__terms'}>
+                        <div className={"signin__forgotText"}>
                             <BlockContent>
-                                <Trans i18nKey='signup-terms'>
-                                    <a href={'/static-pages/terms'}>Terms of Service</a>
-                                    <a href={'/static-pages/privacy'}>Privacy Policy</a>
+                                <Trans i18nKey={'signin-forgotText'}>
+                                    <a href={'/auth/forgot'}>Forgot your password?</a>
                                 </Trans>
                             </BlockContent>
                         </div>
