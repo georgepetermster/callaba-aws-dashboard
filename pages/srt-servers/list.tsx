@@ -1,12 +1,11 @@
-import Head from 'next/head'
-import Default from '../../components/layouts/default'
+import FullLayout from "../../components/layouts/fullLayout";
 
 export default function Home() {
     return (
-        <Default home={false}>
+        <FullLayout>
             <div>
                 srt listing
             </div>
-        </Default>
+        </FullLayout>
     )
 }

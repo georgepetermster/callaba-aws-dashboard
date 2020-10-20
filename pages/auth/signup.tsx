@@ -1,5 +1,5 @@
 import React from "react";
-import Default from '../../components/layouts/default'
+import DefaultLayout from '../../components/layouts/defaultLayout'
 import Modal from "../../components/elements/modal";
 import Logotype from "../../components/elements/logotype/logotype";
 import BlockHeader from "../../components/elements/block-header";
@@ -11,7 +11,7 @@ import BlockContent from "../../components/elements/block-content";
 
 function Signup({t}) {
     return (
-        <Default home={false}>
+        <DefaultLayout home={false}>
             <div>
                 <Modal>
                     <div className={'form'}>
@@ -42,7 +42,7 @@ function Signup({t}) {
                     </div>
                 </Modal>
             </div>
-        </Default>
+        </DefaultLayout>
     )
 }
 

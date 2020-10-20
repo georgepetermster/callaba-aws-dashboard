@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
-export default function Default({children, home}) {
+export default function DefaultLayout({children, home}) {
 
     return (
         <div>

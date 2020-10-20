@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'
 import {withTranslation} from '../i18n'
-import Default from '../components/layouts/default'
+import DefaultLayout from '../components/layouts/defaultLayout'
 
 const Home = function ({t}) {
     return (
-        <Default home>
+        <DefaultLayout home>
             <div>
                 {t('signup-block-header')}
             </div>
-        </Default>
+        </DefaultLayout>
     )
 };
 Home.getInitialProps = async () => ({

@@ -1,6 +1,4 @@
-@import "default/fonts.sass"
-html,
-body
+html, body
   background: #E5E5E5
   padding: 0px
   margin: 0
@@ -9,11 +7,24 @@ body
 *
   box-sizing: border-box
 
+// Fonts
+@import "default/fonts.sass"
 
+// Elements
 @import "default/components/elements/modal"
-@import "default/pages/auth/signup.sass"
 @import "default/components/elements/block-header"
 @import "default/components/elements/block-content"
 @import "default/components/elements/form"
 @import "default/components/elements/form-input-text"
 @import "default/components/elements/form-button"
+
+// Chunks
+@import "default/components/chunks/menu-horizontal"
+@import "default/components/chunks/menu-vertical"
+
+// Pages
+@import "default/pages/auth/signup.sass"
+
+// Layouts
+@import "default/components/layouts/defaultLayout"
+@import "default/components/layouts/fullLayout"
