@@ -10,5 +10,8 @@
   "signin-email": "E-mail",
   "signin-password": "Password",
   "signin-submitButton": "Sign In",
-  "signin-forgotText": "<0>Forgot your password?</0>"
+  "signin-forgotText": "<0>Forgot your password?</0>",
+  "menu-vertical-webrtc-conferences": "WebRTC Conferences",
+  "menu-vertical-srt-conferences": "SRT Conferences",
+  "menu-vertical-srt-streaming": "SRT Streaming"
 }

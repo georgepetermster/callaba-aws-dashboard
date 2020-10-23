@@ -1,10 +1,9 @@
 import React from "react";
-import LogotypeImage from './logotype.svg'
 
 export default function Logotype() {
     return (
         <div>
-            <LogotypeImage/>
+            <img src={'/images/icons/logotype.svg'}/>
         </div>
     )
 }
